@@ -1,5 +1,5 @@
 --CREDIT RayField 
--- By HumanoidBosses
+-- By FalseCommits
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Index = game:GetService("ReplicatedStorage").Badge:FireServer("Double Bladed Scythe", true)
 		game:GetService("ReplicatedStorage").Badge:FireServer("Cosmic Godsword", true)
@@ -37,7 +37,7 @@ local Index = game:GetService("ReplicatedStorage").Badge:FireServer("Double Blad
 local Window = Rayfield:CreateWindow({
 	Name = "MEGA Boss Survival",
 	LoadingTitle = "MEGA Boss Survival",
-	LoadingSubtitle = "by HumanoidBosses",
+	LoadingSubtitle = "by FalseCommits",
 	ConfigurationSaving = {
 		Enabled = false,
 		FolderName = nil, 
