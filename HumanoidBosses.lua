@@ -13,11 +13,11 @@ local Window = Rayfield:CreateWindow({
 },
 })
 
-local MainTab = Window:CreateTab("🏠 Main", nil) 
+local MainTab = Window:CreateTab("🏠| Main", nil) 
 local MainSection = MainTab:CreateSection("Main")
 
 local Button = MainTab:CreateButton({
-	Name = "⚔️Give Items",
+	Name = "⚔️| Give Items",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Badge:FireServer("Double Bladed Scythe", true)
 		
