@@ -285,6 +285,13 @@ local Button = MainTab:CreateButton({
 	end,
  })
 
+ local Button = MainTab:CreateButton({
+	Name = "Cosmic Energy Bomb | Click a few times",
+    Callback = function()
+		game:GetService("ReplicatedStorage").Badge:FireServer("Cosmic Energy Bomb", true)
+	end,
+ })
+
  local MainTab = Window:CreateTab("💀| Farming", nil) 
 local MainSection = MainTab:CreateSection("AutoFarming")
 
@@ -307,4 +314,4 @@ local Button = MainTab:CreateButton({
 	Part.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0, -3.02, 0)
 		end
 	end,
- })
+})
