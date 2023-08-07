@@ -401,6 +401,5 @@ local Button = MainTab:CreateButton({
 	baseplate.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(-295.0075988769531, 50968.53515625, 6509.904296875) -- higher number for it to spawn higher
 	wait(1)
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = baseplate.CFrame + Vector3.new(0,10,0)
-		end
 	end,
 })
