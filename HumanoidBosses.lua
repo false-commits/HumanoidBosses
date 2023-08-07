@@ -292,6 +292,98 @@ local Button = MainTab:CreateButton({
 	end,
  })
 
+ local Button = MainTab:CreateButton({
+	Name = "The Abigail | EQUIP TO SAVE",
+    Callback = function()
+		game:GetService("ReplicatedStorage").Badge:FireServer("The Abigail", true)
+	end,
+ })
+
+ local Button = MainTab:CreateButton({
+	Name = "Super Human Potion | EQUIP TO SAVE",
+    Callback = function()
+		game:GetService("ReplicatedStorage").Badge:FireServer("Super Human Potion", true)
+	end,
+ })
+
+ local Button = MainTab:CreateButton({
+	Name = "Rideable Zombie Dinosaur | EQUIP TO SAVE",
+    Callback = function()
+		game:GetService("ReplicatedStorage").Badge:FireServer("Rideable Zombie Dinosaur", true)
+	end,
+ })
+
+ local Button = MainTab:CreateButton({
+	Name = "Ultrablade | EQUIP TO SAVE",
+    Callback = function()
+		game:GetService("ReplicatedStorage").Badge:FireServer("Ultrablade", true)
+	end,
+ })
+
+ local Button = MainTab:CreateButton({
+	Name = "Throwing Bolts | EQUIP TO SAVE",
+    Callback = function()
+		game:GetService("ReplicatedStorage").Badge:FireServer("Throwing Bolts", true)
+	end,
+ })
+
+ local Button = MainTab:CreateButton({
+	Name = "Rainbow Energy Bomb | EQUIP TO SAVE",
+    Callback = function()
+		game:GetService("ReplicatedStorage").Badge:FireServer("Rainbow Energy Bomb", true)
+	end,
+ })
+
+ local Button = MainTab:CreateButton({
+	Name = "Divine Train | EQUIP TO SAVE",
+    Callback = function()
+		game:GetService("ReplicatedStorage").Badge:FireServer("Divine Train", true)
+	end,
+ })
+
+ local Button = MainTab:CreateButton({
+	Name = "Divine Shield | EQUIP TO SAVE",
+    Callback = function()
+		game:GetService("ReplicatedStorage").Badge:FireServer("Divine Shield", true)
+	end,
+ })
+
+ local Button = MainTab:CreateButton({
+	Name = "Demonic Shield | EQUIP TO SAVE",
+    Callback = function()
+		game:GetService("ReplicatedStorage").Badge:FireServer("Demonic Shield", true)
+	end,
+ })
+
+ local Button = MainTab:CreateButton({
+	Name = "Angelic Dragon | EQUIP TO SAVE",
+    Callback = function()
+		game:GetService("ReplicatedStorage").Badge:FireServer("Angelic Dragon", true)
+	end,
+ })
+
+ local Button = MainTab:CreateButton({
+	Name = "Rainbow Volt Bike | EQUIP TO SAVE",
+    Callback = function()
+		game:GetService("ReplicatedStorage").Badge:FireServer("Rainbow Volt Bike", true)
+	end,
+ })
+
+ local Button = MainTab:CreateButton({
+	Name = "Walking Hotel Mech | EQUIP TO SAVE",
+    Callback = function()
+		game:GetService("ReplicatedStorage").Badge:FireServer("Walking Hotel Mech", true)
+	end,
+ })
+
+ local Button = MainTab:CreateButton({
+	Name = "Viridian Smasher | EQUIP TO SAVE",
+    Callback = function()
+		game:GetService("ReplicatedStorage").Badge:FireServer("Viridian Smasher", true)
+	end,
+ })
+
+
  local MainTab = Window:CreateTab("💀| Farming", nil) 
 local MainSection = MainTab:CreateSection("AutoFarming")
 
