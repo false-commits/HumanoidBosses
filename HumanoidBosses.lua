@@ -394,16 +394,13 @@ local Button = MainTab:CreateButton({
 			v:Disable()
 	end
 	
-	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-295.0075988769531, 50968.53515625, 6509.904296875)
-	
-	local Part = Instance.new("Part", workspace)
-	_G.Toggle = true
-	
-	Part.Anchored = true
-	Part.Size = Vector3.new(10, .001, 10)
-	while _G.Toggle do
-		wait()
-	Part.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0, -3.02, 0)
+	local baseplate = Instance.new("Part")
+	baseplate.Parent = workspace
+	baseplate.Size = Vector3.new(100,5,100) -- change size
+	baseplate.Anchored = true
+	baseplate.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(-295.0075988769531, 50968.53515625, 6509.904296875) -- higher number for it to spawn higher
+	wait(1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = baseplate.CFrame + Vector3.new(0,10,0)
 		end
 	end,
 })
