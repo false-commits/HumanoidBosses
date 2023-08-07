@@ -15,7 +15,7 @@ local Window = Rayfield:CreateWindow({
 })
 
 Rayfield:Notify({
-	Title = "🔴USE BUTTONS BEFORE INVENTORY LOADS!!",
+	Title = "🔴MAKE SURE TO REFRESH YOUR INVENTORY!!",
 	Content = "Some Buttons May not Work, Make sure to REFRESH your inventory!",
 	Duration = 6.5,
 	Image = nil,
@@ -282,5 +282,29 @@ local Button = MainTab:CreateButton({
 	Name = "Striker Eureka | Click a few times",
     Callback = function()
 		game:GetService("ReplicatedStorage").Badge:FireServer("Striker Eureka", true)
+	end,
+ })
+
+ local MainTab = Window:CreateTab("💀| Farming", nil) 
+local MainSection = MainTab:CreateSection("AutoFarming")
+
+local Button = MainTab:CreateButton({
+	Name = "🔢| SURVIVALS & POINT FARM + ANTI AFK",
+    Callback = function()
+		for _, v in next, getconnections(game:GetService("Players").LocalPlayer.Idled) do
+			v:Disable()
+	end
+	
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-295.0075988769531, 50968.53515625, 6509.904296875)
+	
+	local Part = Instance.new("Part", workspace)
+	_G.Toggle = true
+	
+	Part.Anchored = true
+	Part.Size = Vector3.new(10, .001, 10)
+	while _G.Toggle do
+		wait()
+	Part.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0, -3.02, 0)
+		end
 	end,
  })
