@@ -55,13 +55,6 @@ local Button = MainTab:CreateButton({
  })
 
 local Button = MainTab:CreateButton({
-	Name = "Double Bladed Scythe | Click a few times",
-    Callback = function()
-		game:GetService("ReplicatedStorage").Badge:FireServer("Double Bladed Scythe", true)
-	end,
- })
-
-local Button = MainTab:CreateButton({
 	Name = "Crimson Energy Bomb | Click a few times",
     Callback = function()
 		game:GetService("ReplicatedStorage").Badge:FireServer("Crimson Energy Bomb", true)
@@ -86,6 +79,13 @@ local Button = MainTab:CreateButton({
 	Name = "DIVINE IRON MAN SUIT | Click a few times",
     Callback = function()
 		game:GetService("ReplicatedStorage").Badge:FireServer("DIVINE IRON MAN SUIT", true)
+	end,
+ })
+
+ local Button = MainTab:CreateButton({
+	Name = "Mark XXX Iron Man Suit | Click a few times",
+    Callback = function()
+		game:GetService("ReplicatedStorage").Badge:FireServer("Mark XXX SUIT", true)
 	end,
  })
 
@@ -188,65 +188,9 @@ local Button = MainTab:CreateButton({
  })
 
 local Button = MainTab:CreateButton({
-	Name = "Gaster Blaster | Click a few times",
-    Callback = function()
-		game:GetService("ReplicatedStorage").Badge:FireServer("Gaster Blaster", true)
-	end,
- })
-
-local Button = MainTab:CreateButton({
-	Name = "Halloween Sword 2019 | Click a few times",
-    Callback = function()
-		game:GetService("ReplicatedStorage").Badge:FireServer("Halloween Sword 2019", true)
-	end,
- })
-
-local Button = MainTab:CreateButton({
-	Name = "Halloween Sword 2020 | Click a few times",
-    Callback = function()
-		game:GetService("ReplicatedStorage").Badge:FireServer("Halloween Sword 2020", true)
-	end,
- })
-
-local Button = MainTab:CreateButton({
-	Name = "Nuke Launcher | Click a few times",
-    Callback = function()
-		game:GetService("ReplicatedStorage").Badge:FireServer("Nuke Launcher", true)
-	end,
- })
-
-local Button = MainTab:CreateButton({
-	Name = "Red Laser Scythe | Click a few times",
-    Callback = function()
-		game:GetService("ReplicatedStorage").Badge:FireServer("Red Laser Scythe", true)
-	end,
- })
-
-local Button = MainTab:CreateButton({
-	Name = "Dark Crystal Godsword | Click a few times",
-    Callback = function()
-		game:GetService("ReplicatedStorage").Badge:FireServer("Dark Crystal Godsword", true)
-	end,
- })
-
-local Button = MainTab:CreateButton({
-	Name = "Force Gun | Click a few times",
-    Callback = function()
-		game:GetService("ReplicatedStorage").Badge:FireServer("Force Gun", true)
-	end,
- })
-
-local Button = MainTab:CreateButton({
 	Name = "Ghost Mech | Click a few times",
     Callback = function()
 		game:GetService("ReplicatedStorage").Badge:FireServer("Ghost Mech", true)
-	end,
- })
-
-local Button = MainTab:CreateButton({
-	Name = "Blue Magical Sword | Click a few times",
-    Callback = function()
-		game:GetService("ReplicatedStorage").Badge:FireServer("Blue Magical Sword", true)
 	end,
  })
 
@@ -328,20 +272,6 @@ local Button = MainTab:CreateButton({
  })
 
  local Button = MainTab:CreateButton({
-	Name = "Red Magical Sword | Click a few times",
-    Callback = function()
-		game:GetService("ReplicatedStorage").Badge:FireServer("Red Magical Sword", true)
-	end,
- })
-
- local Button = MainTab:CreateButton({
-	Name = "Dark Magical Sword | Click a few times",
-    Callback = function()
-		game:GetService("ReplicatedStorage").Badge:FireServer("Dark Magical Sword", true)
-	end,
- })
-
- local Button = MainTab:CreateButton({
 	Name = "Void Mech | Click a few times",
     Callback = function()
 		game:GetService("ReplicatedStorage").Badge:FireServer("Void Mech", true)
@@ -352,19 +282,5 @@ local Button = MainTab:CreateButton({
 	Name = "Striker Eureka | Click a few times",
     Callback = function()
 		game:GetService("ReplicatedStorage").Badge:FireServer("Striker Eureka", true)
-	end,
- })
-
- local Button = MainTab:CreateButton({
-	Name = "Walking Skyscraper | Click a few times",
-    Callback = function()
-		game:GetService("ReplicatedStorage").Badge:FireServer("Walking Skyscraper", true)
-	end,
- })
-
- local Button = MainTab:CreateButton({
-	Name = "Walking Castle | Click a few times",
-    Callback = function()
-		game:GetService("ReplicatedStorage").Badge:FireServer("Walking Castle", true)
 	end,
  })
