@@ -1,12 +1,12 @@
 --CREDIT RayField 
--- By lmmortalz on discord
+-- By falsecommits
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 
 local Window = Rayfield:CreateWindow({
 	Name = "MEGA Boss Survival",
 	LoadingTitle = "MEGA Boss Survival",
-	LoadingSubtitle = "by lmmortalz on discord",
+	LoadingSubtitle = "by falsecommits",
 	ConfigurationSaving = {
 		Enabled = false,
 		FolderName = nil, 
